@@ -14,7 +14,8 @@ then
 	rm -rf temporal
 	if [ $seleccion = "1" ]
 	then
-		glxgears >2
+		cd tutorial3&&bochs -f bochsrc.txt
+		cd ..
 	fi
 	if [ $seleccion = "2" ]
 	then
