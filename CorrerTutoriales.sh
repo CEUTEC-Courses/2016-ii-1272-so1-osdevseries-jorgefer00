@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#Limpiar temporales
+rm -rf temporal
+
+#Correr un dialog en un loop
 while true; do
 dialog --title "OSDev Jorge Fernandez" \
 --cancel-label "Salir" \
@@ -19,11 +23,13 @@ then
 	fi
 	if [ $seleccion = "2" ]
 	then
-		echo "Correr Tutorial 4"
+		cd tutorial4&&bochs -f bochsrc.txt
+		cd ..
 	fi
 	if [ $seleccion = "3" ]
 	then
-		echo "Correr Tutorial 6"
+		cd tutorial6&&bochs -f bochsrc.txt
+		cd ..
 	fi
 else
 	rm -rf temporal
