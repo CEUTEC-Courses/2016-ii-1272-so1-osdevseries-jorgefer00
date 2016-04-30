@@ -75,8 +75,27 @@ loader:
 	xor	ax, ax						; limpiar AX
 	int	0x12						; tomamos el tamaño de la memoria de la BIOS con este Interruptor
 
-	cli 		; Limpiamos los interruptores
-	hlt 		; Paramos el procesador
+.Reset:
+	mov		ah, 0					; resetear el floppy drive con funcion 0
+	mov		dl, 0					; el drive 0 es el floppy drive
+	int		0x13					; llamamos a la BIOS
+	jc		.Reset					; si el CF Carry Flag esta seteado, llamamos reset otra vez
+ 
+	mov		ax, 0x1000				; vamos a leer un sector hacia la direccion 0x1000:0
+	mov		es, ax
+	xor		bx, bx
+ 
+	mov		ah, 0x02				; leer con la funcion 2
+	mov		al, 1					; leemos 1 sector
+	mov		ch, 1					; estamos leyendo 2 segundo sector que se encuentra todavia en el primer track
+	mov		cl, 2					; numero de sector a leer en track
+	mov		dh, 0					; numero de head o cabeza
+	mov		dl, 0					; el drive 0 es el floppy drive
+	int		0x13					; llamamos a la BIOS
+	
+ 
+	jmp		0x1000:0x0				; jump to execute the sector!
 
 times 510 - ($-$$) db 0	; Llenamos de 0's el resto del codigo para ser 512 bytes
 dw 0xAA55		; Firma de que es un bootloader valido.
+
