@@ -49,14 +49,14 @@ msg	db	"Bienvenido a mi sistema operativo", 0		; el string a imprimir
 ;***************************************
 
 Print:
-			lodsb					; load next byte from string from SI to AL
-			or			al, al		; Does AL=0?
-			jz			PrintDone	; Yep, null terminator found-bail out
-			mov			ah,	0eh	; Nope-Print the character
+			lodsb					; cargar el proximo byte de SI a AL
+			or			al, al		; Es AL=0?
+			jz			PrintDone	; Si es 0, entonces salirse.
+			mov			ah,	0eh	; Si no, entonces imprimir el caracter
 			int			10h
-			jmp			Print		; Repeat until null terminator found
+			jmp			Print		; Repetir hasta que AL sea 0
 PrintDone:
-			ret					; we are done, so return
+			ret					; terminamos, asi que retornamos de funcion
 
 ;*************************************************;
 ;	Bootloader Entry Point
@@ -64,16 +64,16 @@ PrintDone:
 
 
 loader:
-	xor	ax, ax		; Setup segments to insure they are 0. Remember that
-	mov	ds, ax		; we have ORG 0x7c00. This means all addresses are based
-	mov	es, ax		; from 0x7c00:0. Because the data segments are within the same
-				; code segment, null em.
+	xor	ax, ax		; Limpiamos los Segment registers DS y ES
+	mov	ds, ax		
+	mov	es, ax		
+				
 
-	mov	si, msg						; our message to print
-	call	Print						; call our print function
+	mov	si, msg						; el mensaje a imprimir
+	call	Print						; llamamos la funcion print.
 
-	xor	ax, ax						; clear ax
-	int	0x12						; get the amount of KB from the BIOS
+	xor	ax, ax						; limpiar AX
+	int	0x12						; tomamos el tamaño de la memoria de la BIOS con este Interruptor
 
 	cli 		; Limpiamos los interruptores
 	hlt 		; Paramos el procesador
