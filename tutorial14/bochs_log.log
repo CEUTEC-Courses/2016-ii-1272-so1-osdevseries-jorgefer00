@@ -30,7 +30,7 @@
 00000000000i[DEV   ] PIIX3 PCI-to-ISA bridge present at device 1, function 0
 00000000000i[PLUGIN] init_dev of 'cmos' plugin device by virtual method
 00000000000i[CMOS  ] Using local time for initial clock
-00000000000i[CMOS  ] Setting initial clock to: Tue May 10 20:30:44 2016 (time0=1462933844)
+00000000000i[CMOS  ] Setting initial clock to: Tue May 10 21:13:27 2016 (time0=1462936407)
 00000000000i[PLUGIN] init_dev of 'dma' plugin device by virtual method
 00000000000i[DMA   ] channel 4 used by cascade
 00000000000i[PLUGIN] init_dev of 'pic' plugin device by virtual method
@@ -128,42 +128,42 @@
 00000321738i[BIOS  ] ram_size=0x02000000
 00000322194i[BIOS  ] ram_end=32MB
 00000634600i[WINGUI] dimension update x=720 y=400 fontheight=16 fontwidth=9 bpp=8
-00001150864i[BIOS  ] Found 1 cpu(s)
-00001165003i[BIOS  ] bios_table_addr: 0x000fa498 end=0x000fcc00
-00001492001i[PCI   ] i440FX PMC write to PAM register 59 (TLB Flush)
-00001820846i[P2ISA ] PCI IRQ routing: PIRQA# set to 0x0b
-00001820872i[P2ISA ] PCI IRQ routing: PIRQB# set to 0x09
-00001820872i[P2ISA ] PCI IRQ routing: PIRQC# set to 0x0b
-00001820872i[P2ISA ] PCI IRQ routing: PIRQD# set to 0x09
-00001820872i[P2ISA ] write: ELCR2 = 0x0a
-00001821559i[BIOS  ] PIIX3/PIIX4 init: elcr=00 0a
-00001829077i[BIOS  ] PCI: bus=0 devfn=0x00: vendor_id=0x8086 device_id=0x1237 class=0x0600
-00001831356i[BIOS  ] PCI: bus=0 devfn=0x08: vendor_id=0x8086 device_id=0x7000 class=0x0601
-00001833474i[BIOS  ] PCI: bus=0 devfn=0x09: vendor_id=0x8086 device_id=0x7010 class=0x0101
-00001834021i[PIDE  ] new BM-DMA address: 0xc000
-00001834560i[BIOS  ] region 4: 0x0000c000
-00001836326i[BIOS  ] PCI: bus=0 devfn=0x0a: vendor_id=0x8086 device_id=0x7020 class=0x0c03
-00001836684i[UHCI  ] new base address: 0xc020
-00001837387i[BIOS  ] region 4: 0x0000c020
-00001837587i[UHCI  ] new irq line = 9
-00001839162i[BIOS  ] PCI: bus=0 devfn=0x0b: vendor_id=0x8086 device_id=0x7113 class=0x0680
-00001839714i[ACPI  ] new irq line = 11
-00001839748i[ACPI  ] new irq line = 9
-00001839767i[ACPI  ] new PM base address: 0xb000
-00001839767i[ACPI  ] new SM base address: 0xb100
-00001839799i[PCI   ] setting SMRAM control register to 0x4a
-00002003917i[CPU0  ] Enter to System Management Mode
-00002003917i[CPU0  ] enter_system_management_mode: temporary disable VMX while in SMM mode
-00002003921i[CPU0  ] RSM: Resuming from System Management Mode
-00002167943i[PCI   ] setting SMRAM control register to 0x0a
-00002182549i[BIOS  ] MP table addr=0x000fa570 MPC table addr=0x000fa4a0 size=0xc8
-00002184531i[BIOS  ] SMBIOS table addr=0x000fa580
-00002186502i[BIOS  ] ACPI tables: RSDP addr=0x000fa6a0 ACPI DATA addr=0x01ff0000 size=0xf72
-00002190004i[BIOS  ] Firmware waking vector 0x1ff00cc
-00002191846i[PCI   ] i440FX PMC write to PAM register 59 (TLB Flush)
-00002192427i[BIOS  ] bios_table_cur_addr: 0x000fa6c4
-00002320184i[VBIOS ] VGABios $Id: vgabios.c,v 1.76 2013/02/10 08:07:03 vruppert Exp $
-00002320269i[BXVGA ] VBE known Display Interface b0c0
-00002320288i[BXVGA ] VBE known Display Interface b0c5
-00002323212i[VBIOS ] VBE Bios $Id: vbe.c,v 1.65 2014/07/08 18:02:25 vruppert Exp $
-00014918916i[BIOS  ] Booting from 0000:7c00
+00001169354i[BIOS  ] Found 1 cpu(s)
+00001183418i[BIOS  ] bios_table_addr: 0x000fa498 end=0x000fcc00
+00001511001i[PCI   ] i440FX PMC write to PAM register 59 (TLB Flush)
+00001839336i[P2ISA ] PCI IRQ routing: PIRQA# set to 0x0b
+00001839362i[P2ISA ] PCI IRQ routing: PIRQB# set to 0x09
+00001839362i[P2ISA ] PCI IRQ routing: PIRQC# set to 0x0b
+00001839362i[P2ISA ] PCI IRQ routing: PIRQD# set to 0x09
+00001839362i[P2ISA ] write: ELCR2 = 0x0a
+00001840049i[BIOS  ] PIIX3/PIIX4 init: elcr=00 0a
+00001847567i[BIOS  ] PCI: bus=0 devfn=0x00: vendor_id=0x8086 device_id=0x1237 class=0x0600
+00001850001i[BIOS  ] PCI: bus=0 devfn=0x08: vendor_id=0x8086 device_id=0x7000 class=0x0601
+00001852004i[BIOS  ] PCI: bus=0 devfn=0x09: vendor_id=0x8086 device_id=0x7010 class=0x0101
+00001852511i[PIDE  ] new BM-DMA address: 0xc000
+00001853050i[BIOS  ] region 4: 0x0000c000
+00001855001i[BIOS  ] PCI: bus=0 devfn=0x0a: vendor_id=0x8086 device_id=0x7020 class=0x0c03
+00001855174i[UHCI  ] new base address: 0xc020
+00001855877i[BIOS  ] region 4: 0x0000c020
+00001856077i[UHCI  ] new irq line = 9
+00001858002i[BIOS  ] PCI: bus=0 devfn=0x0b: vendor_id=0x8086 device_id=0x7113 class=0x0680
+00001858204i[ACPI  ] new irq line = 11
+00001858238i[ACPI  ] new irq line = 9
+00001858257i[ACPI  ] new PM base address: 0xb000
+00001858257i[ACPI  ] new SM base address: 0xb100
+00001858289i[PCI   ] setting SMRAM control register to 0x4a
+00002022407i[CPU0  ] Enter to System Management Mode
+00002022407i[CPU0  ] enter_system_management_mode: temporary disable VMX while in SMM mode
+00002022411i[CPU0  ] RSM: Resuming from System Management Mode
+00002186433i[PCI   ] setting SMRAM control register to 0x0a
+00002201039i[BIOS  ] MP table addr=0x000fa570 MPC table addr=0x000fa4a0 size=0xc8
+00002203021i[BIOS  ] SMBIOS table addr=0x000fa580
+00002205002i[BIOS  ] ACPI tables: RSDP addr=0x000fa6a0 ACPI DATA addr=0x01ff0000 size=0xf72
+00002208394i[BIOS  ] Firmware waking vector 0x1ff00cc
+00002210336i[PCI   ] i440FX PMC write to PAM register 59 (TLB Flush)
+00002211002i[BIOS  ] bios_table_cur_addr: 0x000fa6c4
+00002338674i[VBIOS ] VGABios $Id: vgabios.c,v 1.76 2013/02/10 08:07:03 vruppert Exp $
+00002338759i[BXVGA ] VBE known Display Interface b0c0
+00002338778i[BXVGA ] VBE known Display Interface b0c5
+00002341702i[VBIOS ] VBE Bios $Id: vbe.c,v 1.65 2014/07/08 18:02:25 vruppert Exp $
+00014918926i[BIOS  ] Booting from 0000:7c00

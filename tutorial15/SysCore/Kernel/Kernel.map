@@ -1,0 +1,55 @@
+ Kernel
+
+ Timestamp is 5732a13f (Tue May 10 21:04:31 2016)
+
+ Preferred load address is 00100000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000007f7H .text                   CODE
+ 0002:00000000 000000e7H .rdata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 00000004H .CRT$XCZ                DATA
+ 0003:00000008 0000001cH .data                   DATA
+ 0003:00000028 00000858H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000320H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       ?kernel_entry@@YAXXZ       00100400 f   entry.obj
+ 0001:00000030       _main                      00100430 f   main.obj
+ 0001:000000a0       ?DebugPutc@@YAXE@Z         001004a0 f   DebugDisplay.obj
+ 0001:00000140       ?itoa@@YAXIIPAD@Z          00100540 f   DebugDisplay.obj
+ 0001:000001a0       ?itoa_s@@YAXHIPAD@Z        001005a0 f   DebugDisplay.obj
+ 0001:000001d0       ?DebugSetColor@@YAII@Z     001005d0 f   DebugDisplay.obj
+ 0001:000001f0       ?DebugGotoXY@@YAXII@Z      001005f0 f   DebugDisplay.obj
+ 0001:00000220       ?DebugClrScr@@YAXE@Z       00100620 f   DebugDisplay.obj
+ 0001:00000270       ?DebugPuts@@YAXPAD@Z       00100670 f   DebugDisplay.obj
+ 0001:00000350       ?DebugPrintf@@YAHPBDZZ     00100750 f   DebugDisplay.obj
+ 0001:000005b0       ?hal_initialize@@YAHXZ     001009b0 f   Hal:Hal.obj
+ 0001:000005c0       ?i86_cpu_initialize@@YAHXZ 001009c0 f   Hal:cpu.obj
+ 0001:00000610       ?i86_idt_initialize@@YAHG@Z 00100a10 f   Hal:idt.obj
+ 0001:000006a0       ?i86_gdt_initialize@@YAHXZ 00100aa0 f   Hal:gdt.obj
+ 0001:00000730       ?Exit@@YAXXZ               00100b30 f   Lib:cstd.obj
+ 0001:00000770       ?InitializeConstructors@@YAXXZ 00100b70 f   Lib:cstd.obj
+ 0001:000007b0       ?strcpy@@YAPADPADPBD@Z     00100bb0 f   Lib:string.obj
+ 0001:000007d0       ?strlen@@YAIPBD@Z          00100bd0 f   Lib:string.obj
+ 0001:000007e0       ?memset@@YAPAXPAXDI@Z      00100be0 f   Lib:string.obj
+ 0002:000000b0       ??_C@_0DH@JFMHMDNJ@?$CK?$CK?$CK?5?$FLi86?5Hal?$FN?5i86_default_handle@ 00100cb0     Hal:idt.obj
+ 0003:00000000       ?__xc_a@@3PAP6AXXZA        00100e00     Lib:cstd.obj
+ 0003:00000004       ?__xc_z@@3PAP6AXXZA        00100e04     Lib:cstd.obj
+ 0003:00000008       ?video_memory@@3PAGA       00100e08     DebugDisplay.obj
+ 0003:0000000c       ?bchars@@3PADA             00100e0c     DebugDisplay.obj
+ 0003:00000020       __fltused                  00100e20     Lib:cstd.obj
+ 0003:00000028       ?tbuf@@3PADA               00100e28     DebugDisplay.obj
+ 0003:00000048       ?cursor_x@@3EA             00100e48     DebugDisplay.obj
+ 0003:00000049       ?cursor_y@@3EA             00100e49     DebugDisplay.obj
+ 0003:0000004a       ?_color@@3EA               00100e4a     DebugDisplay.obj
+
+ entry point at        0000:00000000
+
+ Static symbols
+
+ 0001:000005e0       ?i86_default_handler@@YAXXZ 001009e0 f   Hal:idt.obj
