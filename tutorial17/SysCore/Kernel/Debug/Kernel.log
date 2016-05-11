@@ -1,0 +1,36 @@
+﻿Build started 10/05/2016 09:50:59 p.m..
+     1>Project "C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial17\SysCore\Kernel\Kernel.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Kernel.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Include\ /nologo /W4 /WX- /O1 /Oy /D ARCH_X86 /X /GF- /Gm- /MD /Zp1 /GS- /fp:precise /Zc:wchar_t /Zc:forScope /GR- /FAs /Fa"Debug\\" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt entry.cpp main.cpp DebugDisplay.cpp exception.cpp mmngr_phys.cpp panic.cpp /Oy 
+         entry.cpp
+         main.cpp
+         DebugDisplay.cpp
+     1>DebugDisplay.cpp(63): warning C4189: 'cursorLocation' : local variable is initialized but not referenced
+         exception.cpp
+         mmngr_phys.cpp
+     1>mmngr_phys.cpp(94): warning C4800: 'uint32_t' : forcing value to bool 'true' or 'false' (performance warning)
+         panic.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Debug\Resource.res" Resource.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial17\SysCore\Debug\Kernel.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\Lib\ /NODEFAULTLIB /MANIFEST:NO /PDB:"C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial17\SysCore\Debug\Kernel.pdb" /MAP:"Kernel.map" /SUBSYSTEM:NATIVE /Driver /OPT:REF /OPT:ICF /TLBID:1 /ENTRY:"kernel_entry" /BASE:"0x100000" /FIXED:NO /IMPLIB:"C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial17\SysCore\Debug\Kernel.lib" /MACHINE:X86 Debug\Resource.res
+         Debug\entry.obj
+         Debug\main.obj
+         Debug\DebugDisplay.obj
+         Debug\exception.obj
+         Debug\mmngr_phys.obj
+         Debug\panic.obj
+         "C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial17\SysCore\Debug\Lib.lib"
+         "C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial17\SysCore\Debug\Hal.lib" /ALIGN:512 /ignore:4254 
+         Kernel.vcxproj -> C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial17\SysCore\Debug\Kernel.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Kernel.unsuccessfulbuild".
+         Touching "Debug\Kernel.lastbuildstate".
+     1>Done Building Project "C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial17\SysCore\Kernel\Kernel.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.40

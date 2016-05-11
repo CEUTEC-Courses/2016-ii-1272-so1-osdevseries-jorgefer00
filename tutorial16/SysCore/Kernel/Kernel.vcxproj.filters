@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Init">
+      <UniqueIdentifier>{0353c9ec-e099-453a-8671-fc2f9251ca48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{1b5758fa-2ac6-422f-98c0-3bfc033948b7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entry.cpp">
+      <Filter>Init</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Init</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugDisplay.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="exception.cpp" />
+    <ClCompile Include="panic.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DebugDisplay.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="exception.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+</Project>
