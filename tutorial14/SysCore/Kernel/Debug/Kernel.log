@@ -1,0 +1,31 @@
+﻿Build started 10/05/2016 08:25:25 p.m..
+     1>Project "C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial14\SysCore\Kernel\Kernel.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Kernel.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\Kernel.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Include\ /Zi /nologo /W4 /WX- /O2 /Oy- /D ARCH_X86 /X /Gm- /MD /Zp1 /GS- /fp:precise /Zc:wchar_t /Zc:forScope /GR- /FAs /Fa"Debug\\" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DebugDisplay.cpp entry.cpp main.cpp /Oy 
+     1>cl : Command line warning D9025: overriding '/Oy-' with '/Oy'
+         DebugDisplay.cpp
+         entry.cpp
+         main.cpp
+         Generating Code...
+     1>c:\documents and settings\jorge fernandez\desktop\sistemas operativos i\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial14\syscore\kernel\debugdisplay.cpp(230): warning C4715: 'DebugPrintf' : not all control paths return a value
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Debug\Resource.res" Resource.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial14\SysCore\Debug\Kernel.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\Lib\ /NODEFAULTLIB /MANIFEST:NO /PDB:"C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial14\SysCore\Debug\Kernel.pdb" /MAP:"Kernel.map" /SUBSYSTEM:NATIVE /Driver /OPT:REF /OPT:ICF /TLBID:1 /ENTRY:"kernel_entry" /BASE:"0x100000" /FIXED:NO /IMPLIB:"C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial14\SysCore\Debug\Kernel.lib" /MACHINE:X86 Debug\Resource.res
+         Debug\DebugDisplay.obj
+         Debug\entry.obj
+         Debug\main.obj
+         "C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial14\SysCore\Debug\Lib.lib" /ALIGN:512 /ignore:4254 
+         Kernel.vcxproj -> C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial14\SysCore\Debug\Kernel.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Kernel.unsuccessfulbuild".
+         Touching "Debug\Kernel.lastbuildstate".
+     1>Done Building Project "C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial14\SysCore\Kernel\Kernel.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.12
