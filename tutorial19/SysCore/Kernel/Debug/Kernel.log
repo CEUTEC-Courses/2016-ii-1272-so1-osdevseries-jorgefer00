@@ -1,0 +1,34 @@
+﻿Build started 11/05/2016 08:39:44 p.m..
+     1>Project "C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial19\SysCore\Kernel\Kernel.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Kernel.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Include\ /I..\Keyboard /nologo /W4 /WX- /O2 /Oy /D ARCH_X86 /X /GF- /Gm- /MD /Zp1 /GS- /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp /Oy 
+         main.cpp
+     1>main.cpp(60): warning C4244: 'argument' : conversion from 'uint64_t' to 'size_t', possible loss of data
+     1>main.cpp(226): warning C4127: conditional expression is constant
+     1>c:\documents and settings\jorge fernandez\desktop\sistemas operativos i\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial19\syscore\kernel\main.cpp(253): warning C4702: unreachable code
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial19\SysCore\Debug\Kernel.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\Lib\ /LIBPATH:..\debug\ keyboard.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB /MANIFEST:NO /PDB:"C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial19\SysCore\Debug\Kernel.pdb" /MAP:"Kernel.map" /SUBSYSTEM:NATIVE /Driver /OPT:REF /OPT:ICF /TLBID:1 /ENTRY:"kernel_entry" /BASE:"0xC0000000" /FIXED:NO /IMPLIB:"C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial19\SysCore\Debug\Kernel.lib" /MACHINE:X86 Debug\Resource.res
+         Debug\entry.obj
+         Debug\main.obj
+         Debug\DebugDisplay.obj
+         Debug\exception.obj
+         Debug\mmngr_phys.obj
+         Debug\mmngr_virtual.obj
+         Debug\panic.obj
+         Debug\vmmngr_pde.obj
+         Debug\vmmngr_pte.obj
+         "C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial19\SysCore\Debug\Hal.lib"
+         "C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial19\SysCore\Debug\Lib.lib" /ALIGN:512 /ignore:4254 
+         Kernel.vcxproj -> C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial19\SysCore\Debug\Kernel.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Kernel.unsuccessfulbuild".
+         Touching "Debug\Kernel.lastbuildstate".
+     1>Done Building Project "C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial19\SysCore\Kernel\Kernel.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.92

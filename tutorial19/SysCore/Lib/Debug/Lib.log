@@ -1,0 +1,23 @@
+﻿Build started 11/05/2016 08:11:22 p.m..
+     1>Project "C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial19\SysCore\Lib\Lib.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Lib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Include\ /Zi /nologo /W4 /WX- /O2 /Oy /D ARCH_X86 /X /Gm- /MD /Zp1 /GS- /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cstd.cpp stdio.cpp string.cpp
+         cstd.cpp
+         stdio.cpp
+         string.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial19\SysCore\Debug\Lib.lib" /NOLOGO Debug\cstd.obj
+         Debug\stdio.obj
+         Debug\string.obj
+         Lib.vcxproj -> C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial19\SysCore\Debug\Lib.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\Lib.unsuccessfulbuild".
+         Touching "Debug\Lib.lastbuildstate".
+     1>Done Building Project "C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial19\SysCore\Lib\Lib.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.59
