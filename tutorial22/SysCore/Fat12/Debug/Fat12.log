@@ -1,0 +1,22 @@
+﻿Build started 22/05/2016 10:53:32 a.m..
+     1>Project "C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial22\SysCore\Fat12\Fat12.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Fat12.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\Fat12.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../Kernel /I../Include /Zi /nologo /W1 /WX- /O2 /Oy- /Gm- /EHsc /MD /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt fat12.cpp
+         fat12.cpp
+     1>C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial22\SysCore\Include\ctype.h(39): warning C4005: 'isascii' : macro redefinition
+                 C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial22\SysCore\Include\ctype.h(28) : see previous definition of 'isascii'
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial22\SysCore\Debug\Fat12.lib" /NOLOGO Debug\fat12.obj
+         Fat12.vcxproj -> C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial22\SysCore\Debug\Fat12.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\Fat12.unsuccessfulbuild".
+         Touching "Debug\Fat12.lastbuildstate".
+     1>Done Building Project "C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial22\SysCore\Fat12\Fat12.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.15
