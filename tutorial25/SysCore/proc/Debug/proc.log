@@ -1,0 +1,22 @@
+﻿Build started 22/05/2016 11:20:40 a.m..
+     1>Project "C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial25\SysCore\proc\proc.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\proc.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /Od /Oy /Gm- /MD /GS- /fp:precise /Zc:wchar_t /Zc:forScope /GR- /FAs /Fa"Debug\\" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(19): warning C4405: 'str' : identifier is reserved word
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial25\SysCore\Debug\proc.exe" /NOLOGO /NODEFAULTLIB /MANIFEST /ManifestFile:"Debug\proc.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial25\SysCore\Debug\proc.pdb" /SUBSYSTEM:NATIVE /OPT:REF /OPT:ICF /TLBID:1 /ENTRY:"processEntry" /BASE:"0x00400000" /DYNAMICBASE /FIXED:NO /NXCOMPAT /IMPLIB:"C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial25\SysCore\Debug\proc.lib" /MACHINE:X86 Debug\main.obj /ALIGN:512 
+     1>LINK : warning LNK4108: /ALIGN specified without /DRIVER; image may not run
+         proc.vcxproj -> C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial25\SysCore\Debug\proc.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial25\SysCore\Debug\proc.exe;#1" /manifest Debug\proc.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\proc.unsuccessfulbuild".
+         Touching "Debug\proc.lastbuildstate".
+     1>Done Building Project "C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial25\SysCore\proc\proc.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.78
