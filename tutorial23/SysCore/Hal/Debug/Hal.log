@@ -1,0 +1,42 @@
+﻿Build started 22/05/2016 11:02:34 a.m..
+     1>Project "C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial23\SysCore\Hal\Hal.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Hal.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Include\ /Zi /nologo /W4 /WX- /Ox /Oy /D ARCH_X86 /X /Gm- /MD /Zp1 /GS- /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cpu.cpp dma.cpp gdt.cpp Hal.cpp idt.cpp pic.cpp pit.cpp tss.cpp user.cpp
+         cpu.cpp
+         dma.cpp
+     1>dma.cpp(67): warning C4100: 'dma' : unreferenced formal parameter
+     1>dma.cpp(74): warning C4100: 'dma' : unreferenced formal parameter
+     1>dma.cpp(142): warning C4244: 'argument' : conversion from 'int' to 'unsigned char', possible loss of data
+         gdt.cpp
+         Hal.cpp
+     1>Hal.cpp(164): warning C4244: 'argument' : conversion from 'int' to 'uint16_t', possible loss of data
+         idt.cpp
+         pic.cpp
+         pit.cpp
+         tss.cpp
+     1>tss.cpp(54): warning C4409: illegal instruction size
+     1>tss.cpp(49): warning C4100: 'sel' : unreferenced formal parameter
+     1>tss.cpp(95): warning C4244: 'argument' : conversion from 'uint32_t' to 'uint16_t', possible loss of data
+         user.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial23\SysCore\Debug\Hal.lib" /NOLOGO Debug\cpu.obj
+         Debug\dma.obj
+         Debug\gdt.obj
+         Debug\Hal.obj
+         Debug\idt.obj
+         Debug\pic.obj
+         Debug\pit.obj
+         Debug\tss.obj
+         Debug\user.obj
+         Hal.vcxproj -> C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial23\SysCore\Debug\Hal.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\Hal.unsuccessfulbuild".
+         Touching "Debug\Hal.lastbuildstate".
+     1>Done Building Project "C:\Documents and Settings\Jorge Fernandez\Desktop\Sistemas Operativos I\2016-ii-1272-so1-osdevseries-jorgefer00\tutorial23\SysCore\Hal\Hal.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.45
